@@ -1,0 +1,143 @@
+#danci_jun_alert_con {
+	position: absolute;
+	top: 0px;
+	background: #c3c3c3;
+	height: auto;
+	width: 250px;
+	left: 200px;
+	top: 50px;
+	border: none;
+	box-shadow: 0px 0px 10px #fff;
+	border-radius: 3px;
+	z-index: 1000000;
+	text-align: left;
+}
+
+#danci_jun_alert_con h5, 
+#danci_jun_alert_con h1, 
+#danci_jun_alert_con h2, 
+#danci_jun_alert_con h3, 
+#danci_jun_alert_con h4 {
+	line-height: 100%;
+	padding: 0px;
+	margin:0px;
+	font-size: 14px;
+	text-align: left;
+}
+
+#danci_jun_alert_con span {
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: left;
+	font-size: 14px;
+}
+
+#danci_jun_alert_con .danci_wrapper {
+	color: #090909;
+	position: relative;
+	padding: 35px 15px 35px 15px;
+}
+
+#danci_jun_alert_con .danci_wrapper  > div {
+	margin-bottom: 10px;
+}
+
+#danci_jun_alert_con .st {
+	position: relative;
+	width: 100%;
+}
+
+#danci_jun_alert_con .s {
+	position: relative;
+	margin-left:3em;
+}
+
+#danci_jun_alert_con .t{
+	position: relative;
+}
+
+#danci_jun_alert_con .st h5, #danci_jun_alert_con .tt h5{
+	font-size: 14px;
+}
+
+#danci_jun_alert_con .s, #danci_jun_alert_con .t {
+	font-size: 13px;
+	margin-left: 3em;
+	padding-left: 0px;
+	text-align: left;
+}
+
+#danci_jun_alert_con .star {
+	width: 0px;
+	position: absolute;
+	height: 0px;
+	left: 50%;
+	border-bottom: 10px solid #c3c3c3;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	top: -10px;
+	margin-left: -5px;
+}
+
+#danci_jun_alert_con .star.left {
+	left:-25px;
+	top:50%;
+	margin-top: -9px;
+}
+
+#danci_jun_alert_con .star.right {
+	right:-25px;
+	top:50%;
+	margin-top: -9px;
+}
+
+#danci_jun_alert_con .star.bottom {
+	left: 50%;
+	margin-left: -9px;
+	bottom: -18px;
+}
+
+.line-1 {
+	height: 1px;
+	background: #b8b8b8;
+	position: absolute;
+	width: 82%;
+	right: 0px;
+	top: 0.6em;
+}
+
+.line-2 {
+	height: 1px;
+	background: #b8b8b8;
+	position: absolute;
+	top: 170%;
+	width: 100%;
+	right: 0px;
+}
+
+.line-3 {
+	height: 1px;
+	background: #b8b8b8;
+	width: 100%;
+	bottom: -18px;
+	right: 0px;
+	position: absolute;
+}
+
+#danci_jun_loading_con {
+	background: none;
+	border: none;
+	box-shadow: none;
+	text-align: center;
+	z-index: 1000000;
+	width: 250px;
+	background: none;
+	background-image: url('chrome-extension://__MSG_@@extension_id__/loading.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+	overflow: hidden;
+	background-size: 20px 20px;
+}
+
+
+
