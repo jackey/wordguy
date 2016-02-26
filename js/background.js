@@ -10,8 +10,9 @@ function danciGuyMenuItemClick(info, tab) {
 var gPos = null;
 var from = 'auto';
 var to = 'en';
-var clientId = 'v6hGcVXMm1yrAz3MOoMspZzO';
-var apiAddr = 'http://openapi.baidu.com/public/2.0/bmt/translate';
+var appId = '20160201000010075';
+var appSecret = 'xzbEKyFjhwxEWgQbrcq7';
+var apiAddr = 'http://api.fanyi.baidu.com/api/trans/vip/translate';
 
 var idControl = chrome.contextMenus.create({
 	"title": "单词君",
